@@ -1,0 +1,12 @@
+name = "casibom-proxy"
+main = "src/index.js"
+compatibility_date = "2025-12-01"
+
+# Deploy edilecek ortam (production)
+[vars]
+# İstersen buraya da PROXY_DOMAIN yazabilirsin
+
+# Route ayarı – kendi domainini yaz
+[[routes]]
+pattern = "proxyalaniniz.com/*"   # BURAYI KENDİ DOMAİNİN İLE DEĞİŞTİR
+custom_domain = true
